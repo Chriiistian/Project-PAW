@@ -13,3 +13,13 @@ info{
 crds{
     background-color: midnightblue;
 }
+frm{
+    background-color: blue;
+}
+form{
+    color: white;
+}
+.accordion-button{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}

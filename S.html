@@ -9,7 +9,6 @@
 </head>
 <body>
   <title>CoolerFreeze</title>
-  <header>
     <!-- navbar -->    
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
@@ -23,10 +22,10 @@
                 <a class="nav-link " aria-current="page" href="./index.html"><h4>Inicio</h4></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./N.html"><h2>Nosotros</h2></a>
+                <a class="nav-link" href="./N.html"><h4>Nosotros</h4></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./S.html"><h4>Servicios</h4></a>
+                <a class="nav-link active" href="./S.html"><h2>Servicios</h2></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled"><h4>Contacto</h4></a>
@@ -35,16 +34,57 @@
           </div>
         </div>
     </nav>
-  </header>  
-    <!-- recuadro con info -->
-    <container>
+    <!--Formulario-->
+    <div class="container-fluid">
         <div class="row g-0">
-            <div class="col-1 col-md-4 p-5"><h1><titulo>CoolerFreeze</titulo></h1></div>
+            <div class="col-sm-1 col-md-3 p-5"><h1><titulo>CoolerFreeze</titulo></h1></div>
                  
-            <div class="col-sm-auto col-md-8 p-5"><info><H2>Sobre Nosotros<hr width="75%" /> <br> Nuestra Empresa</H2>
-            <h3><br><b>CoolerFreeze</b> es una empresa creada por un grupo de jovenes profecionales, enfocados en entregar un servicio de calidad <br><br> Nuestra misión es ayudar a los consumidores a escoger el producto perfecto para sus necesidades y presupuesto. </h3></div></info>
+            <div class="col-sm-auto col-md-8 p-5"><info><H2><b>Contactenos</b></H2>
+            <h6>Asegurese que el correo es valido y esta bien escrito, para que podamos contactarnos con usted. Le responderemos a la brevedad posible en horario hábil de lunes a viernes entre 9:00 y 19:00hrs.,(no considera feriados).</h6></info>
+            <frm class="col-auto" style="width: 100%;">formulario</frm>
+            <form>
+                <div class="form-row p-5">
+                  <div class="form-group col-md-5">
+                    <label for="inputname">*Nombre:</label>
+                    <input type="text" class="form-control" id="inputname" placeholder="Ej: juanito alcachofa">
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputrut">*Rut:</label>
+                    <input type="number" class="form-control" id="inputrut" placeholder="Ej: 99.999.999-9">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label for="inputnt">*Numero de Telefono:</label>
+                    <input type="number" class="form-control" id="inputnt" placeholder="Ej: 9 9999 9999">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label for="inputemail">*Email:</label>
+                    <input type="email" class="form-control" id="inputemail" placeholder="Ej:juanito_al@correo.com">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label for="inputnbd">*Numero de Boleta o Factura:</label>
+                    <input type="number" class="form-control" id="inputnbd">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">*Motivo:</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>-Seleccione Motivo-</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">*Comentarios:</label>
+                    <br>
+                    <textarea cols="90" rows="8" name="comentarios"></textarea> 
+                  </div>
+                </div>
+                  <button type="submit" class="btn btn-primary ">Enviar</button>
+              </form>  
+                </div>
+            </div>
+        
         </div>
-    </container>
+    </div>
+    </frm>
     <!-- Footer -->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -61,7 +101,7 @@
           </ul>
         </footer>
       </div>
-      <div class="b-example-divider"></div>    
+      <div class="b-example-divider"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 </body>    
-</html>
+</html>    
